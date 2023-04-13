@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: conversao-temperatura
+spec:
+  containers:
+    - name: web-site
+      image: gustink2/conversao-temperatura:latest
+      ports:
+      - containerPort: 8080
+
